@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: superkake/hello-world-docker-action@a041862978ccde7856ca80b9f7b22d761eb74e6a
+        uses: superkake/hello-world-docker-action@v1
         with:
           who-to-greet: 'Barry Allen'
       # Use the output from the `hello` step
